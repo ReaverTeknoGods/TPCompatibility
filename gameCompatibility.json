@@ -1683,7 +1683,7 @@
     "MultiplayerType": 4,
     "MultiplayerDetails": null,
     "NvidiaSupport": 0,
-    "AmdSupport": 4,
+    "AmdSupport": 0,
     "IntelSupport": 4,
     "SetupDetails": [
       {
