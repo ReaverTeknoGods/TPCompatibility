@@ -1773,7 +1773,10 @@
       {
         "Category": "General Setup",
         "Details": "<p>\r\n\t\t\t\t\t\t\t&nbsp;\r\n\t\t\t\t\t\t</p>",
-        "BulletPoints": []
+        "BulletPoints": [
+          "Executable is \"game\" found in game's root folder.",
+          "This version of the game is based on the USA's Version of the TV Show"
+        ]
       }
     ],
     "CommonIssues": [],
