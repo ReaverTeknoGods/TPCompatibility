@@ -2298,7 +2298,7 @@
     "MultiplayerType": 4,
     "MultiplayerDetails": null,
     "NvidiaSupport": 0,
-    "AmdSupport": 4,
+    "AmdSupport": 0,
     "IntelSupport": 4,
     "SetupDetails": [
       {
@@ -3351,7 +3351,7 @@
     "MultiplayerType": 4,
     "MultiplayerDetails": null,
     "NvidiaSupport": 0,
-    "AmdSupport": 3,
+    "AmdSupport": 0,
     "IntelSupport": 4,
     "SetupDetails": [
       {
@@ -3360,9 +3360,15 @@
         "BulletPoints": []
       }
     ],
-    "CommonIssues": [],
+   "CommonIssues": [
+      {
+        "Question": "Some libs had to be copied and pasted through ElfLdr2 libs folder.",
+        "Answer": "In the main elf game folder, libcri_soundoutput_lindbergh_jr.so and librnalindbergh_jr.so are required to boot the game properly."
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 1
+
   },
   {
     "Id": "HOTDSD",
@@ -3486,7 +3492,7 @@
     "Genre": "Fighting",
     "MultiplayerType": 4,
     "MultiplayerDetails": null,
-    "NvidiaSupport": 4,
+    "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 4,
     "SetupDetails": [
@@ -6265,7 +6271,7 @@
     "CommonIssues": [
       {
         "Question": "AMD GPU Issues",
-        "Answer": "Some things doesn't render"
+        "Answer": "Some gfx do not render properly"
       }
     ],
     "FeaturesNotEmulated": [],
@@ -6287,17 +6293,19 @@
       {
         "Category": "General Setup",
         "Details": "<p style=\"font-weight: bold;\">Game</p>",
-        "BulletPoints": []
+        "BulletPoints": [
+             "Executable is \"Showdown.exe\" found in the \"Showdown\" folder."
+            ]
       }
     ],
     "CommonIssues": [
       {
         "Question": "The game crashes after showing the games logo",
-        "Answer": "Showdown requires the Rapture3D audio software to be installed. You can download it for free from the manufacturers website DOWNLOAD"
+        "Answer": "Showdown requires the Rapture3D audio software to be installed. You can download it for free from the manufacturers website DOWNLOAD. Game Edition is the only version needed for install."
       }
     ],
     "FeaturesNotEmulated": [],
-    "OverallStatus": 0
+    "OverallStatus": 2
   },
   {
     "Id": "SilentHill",
@@ -6436,7 +6444,7 @@
     "SetupDetails": [
       {
         "Category": "General Setup",
-        "Details": "<p style=\"font-weight: bold;\">Game</p>\r\n\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t<li>Executable is \"sdaemon.exe\" found in game's root folder.</li>\r\n\t\t\t\t\t\t</ul>",
+        "Details": "<p style=\"font-weight: bold;\">Game</p>",
         "BulletPoints": [
           "Executable is \"sdaemon.exe\" found in game's root folder."
         ]
@@ -6666,7 +6674,7 @@
     "SetupDetails": [
       {
         "Category": "General Setup",
-        "Details": "<p style=\"font-weight: bold;\">Game</p>\r\n\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t<li>Executable is \"racing.exe\" found in \"\\bin\\\" folder.</li>\r\n\t\t\t\t\t\t</ul>",
+        "Details": "<p style=\"font-weight: bold;\">Game</p>",
         "BulletPoints": [
           "Executable is \"racing.exe\" found in \"\\bin\\\" folder."
         ]
@@ -6848,7 +6856,7 @@
     "Genre": "Fighting",
     "MultiplayerType": 4,
     "MultiplayerDetails": null,
-    "NvidiaSupport": 4,
+    "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 4,
     "SetupDetails": [
@@ -6956,7 +6964,7 @@
     "Genre": "Fighting",
     "MultiplayerType": 4,
     "MultiplayerDetails": null,
-    "NvidiaSupport": 4,
+    "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 4,
     "SetupDetails": [
@@ -7862,8 +7870,8 @@
     "Genre": "Fighting",
     "MultiplayerType": 4,
     "MultiplayerDetails": null,
-    "NvidiaSupport": 4,
-    "AmdSupport": 4,
+    "NvidiaSupport": 0,
+    "AmdSupport": 0,
     "IntelSupport": 4,
     "SetupDetails": [
       {
