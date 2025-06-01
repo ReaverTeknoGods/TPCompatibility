@@ -1683,7 +1683,7 @@
     "MultiplayerType": 4,
     "MultiplayerDetails": null,
     "NvidiaSupport": 0,
-    "AmdSupport": 4,
+    "AmdSupport": 0,
     "IntelSupport": 4,
     "SetupDetails": [
       {
@@ -3367,7 +3367,8 @@
       }
     ],
     "FeaturesNotEmulated": [],
-    "OverallStatus": 0
+    "OverallStatus": 1
+
   },
   {
     "Id": "HOTDSD",
