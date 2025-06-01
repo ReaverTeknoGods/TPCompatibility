@@ -3350,7 +3350,7 @@
     "Genre": "Shooter",
     "MultiplayerType": 4,
     "MultiplayerDetails": null,
-    "NvidiaSupport": 4,
+    "NvidiaSupport": 0,
     "AmdSupport": 3,
     "IntelSupport": 4,
     "SetupDetails": [
@@ -3362,7 +3362,7 @@
     ],
     "CommonIssues": [],
     "FeaturesNotEmulated": [],
-    "OverallStatus": 4
+    "OverallStatus": 1
   },
   {
     "Id": "HOTDSD",
