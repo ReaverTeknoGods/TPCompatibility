@@ -2404,10 +2404,14 @@
       {
         "Category": "General Setup",
         "Details": "<p style=\"font-weight: bold;\">Game</p>",
-        "BulletPoints": []
+        "BulletPoints": [
+          "Executable is 'sdaemon.exe' Located in the game's root directory"
+        ]
       }
     ],
-    "CommonIssues": [],
+    "CommonIssues": [
+      "FPS Mismatch causing game to feel significantly faster: To fix in game settings enable: General-Framelimiter"
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 4
   },
