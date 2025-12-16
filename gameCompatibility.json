@@ -1494,13 +1494,13 @@
     "Id": "CruisnBlast",
     "Name": "Cruis'n Blast",
     "Hardware": "RAW Thrills Linux PC Based",
-    "Description": "Released on RAW Thrills Linux PC Based in 2017.",
+    "Description": "Released on RAW Thrills Linux PC Based in 2017. \nGame was made in collaboration between Nintendo And Raw Thrills. ",
     "IconUrl": "https://raw.githubusercontent.com/teknogods/TeknoParrotUIThumbnails/master/Icons/CruisnBlast.png",
     "Genre": "Racing",
-    "MultiplayerType": 4,
+    "MultiplayerType": 3,
     "MultiplayerDetails": null,
     "NvidiaSupport": 0,
-    "AmdSupport": 4,
+    "AmdSupport": 0,
     "IntelSupport": 4,
     "SetupDetails": [
       {
@@ -1873,17 +1873,30 @@
     "Id": "DealOrNoDealUK",
     "Name": "Deal Or No Deal UK",
     "Hardware": "ICE PC Based",
-    "Description": "Released on ICE PC Based in 2009.",
+    "Description": "Released on ICE PC Based in 2009.\nThis is the UK Variant of the US Game with Noel Edmonds as the host.\n",
     "IconUrl": "https://raw.githubusercontent.com/teknogods/TeknoParrotUIThumbnails/master/Icons/DealOrNoDeal.png",
     "Genre": "Puzzle",
     "MultiplayerType": 0,
-    "MultiplayerDetails": null,
+    "MultiplayerDetails": "N/A",
     "NvidiaSupport": 4,
-    "AmdSupport": 4,
+    "AmdSupport": 2,
     "IntelSupport": 4,
-    "SetupDetails": [],
-    "CommonIssues": [],
-    "FeaturesNotEmulated": [],
+    "SetupDetails": [
+      {
+        "Category": "Game Location",
+        "Details": "Teknoparrot UI looks for a file called game which is in the root directory of the game. \n",
+        "BulletPoints": []
+      }
+    ],
+    "CommonIssues": [
+      {
+        "Question": "Windowed",
+        "Answer": "Using AMD CPU and graphics Game Window won't resize without closing / crashing. "
+      }
+    ],
+    "FeaturesNotEmulated": [
+      "Ticket Payout - Turn this off in operators menu"
+    ],
     "OverallStatus": 0
   },
   {
@@ -4194,10 +4207,10 @@
     "Description": "Released on RAW Thrills Linux PC Based in 2015.",
     "IconUrl": "https://raw.githubusercontent.com/teknogods/TeknoParrotUIThumbnails/master/Icons/JurassicPark.png",
     "Genre": "Shooter",
-    "MultiplayerType": 4,
-    "MultiplayerDetails": null,
+    "MultiplayerType": 1,
+    "MultiplayerDetails": "Local 2 Players",
     "NvidiaSupport": 0,
-    "AmdSupport": 4,
+    "AmdSupport": 0,
     "IntelSupport": 4,
     "SetupDetails": [
       {
@@ -7404,7 +7417,12 @@
         "BulletPoints": []
       }
     ],
-    "CommonIssues": [],
+    "CommonIssues": [
+      {
+        "Question": "FPS mismatch",
+        "Answer": "If you find the game is running a bit to fast compared to how it runs in arcade, in general settings turn on general-framelimiter this will lock the FPS to how it's supposed to run."
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 4
   },
@@ -7862,7 +7880,12 @@
         "BulletPoints": []
       }
     ],
-    "CommonIssues": [],
+    "CommonIssues": [
+      {
+        "Question": "FPS mismatch",
+        "Answer": "If you find the game is running a bit to fast compared to how it runs in arcade, in general settings turn on general-framelimiter this will lock the FPS to how it's supposed to run."
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 4
   },
@@ -7885,7 +7908,12 @@
         "BulletPoints": []
       }
     ],
-    "CommonIssues": [],
+    "CommonIssues": [
+      {
+        "Question": "FPS mismatch",
+        "Answer": "If you find the game is running a bit to fast compared to how it runs in arcade, in general settings turn on general-framelimiter this will lock the FPS to how it's supposed to run."
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 4
   },
@@ -7908,7 +7936,12 @@
         "BulletPoints": []
       }
     ],
-    "CommonIssues": [],
+    "CommonIssues": [
+      {
+        "Question": "FPS mismatch",
+        "Answer": "If you find the game is running a bit to fast compared to how it runs in arcade, in general settings turn on general-framelimiter this will lock the FPS to how it's supposed to run."
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 4
   },
@@ -7931,7 +7964,12 @@
         "BulletPoints": []
       }
     ],
-    "CommonIssues": [],
+    "CommonIssues": [
+      {
+        "Question": "FPS mismatch",
+        "Answer": "If you find the game is running a bit to fast compared to how it runs in arcade, in general settings turn on general-framelimiter this will lock the FPS to how it's supposed to run."
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 4
   },
